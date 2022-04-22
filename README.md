@@ -1,2 +1,2 @@
 # fake_login_system
-Fake login system with a dictionary to store the emails
+A fake login system to practise using a dictionary to store the email and passwords
