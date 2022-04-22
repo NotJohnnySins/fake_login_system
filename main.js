@@ -18,8 +18,6 @@ window.onload = function(){
     let emails = []
     let passwords = []
     for(let x in users) emails.push(users[x].email) && passwords.push(users[x].password)
-    console.log(emails)
-    console.log(passwords)
     login.onclick = function(){
         if(emails.join(' ').includes(email.value) && passwords.join(' ').includes(password.value)) {
             for(let x in users){
